@@ -54,7 +54,7 @@ export default function Pasatiempos() {
               Desde pequeño fui fan de la saga Super Mario Bros; me encantaba su simpleza artística 
               en sus sprites, la música carismática de los juegos de los 80 y las animaciones limitadas 
               de los sprites. Mi fanatismo creció al descubrir la comunidad de speedrun; ya que 
-              llevaban el juego al límite, al explotar errores de programación de un juego creado +35 años.
+              llevaban el juego al límite, al explotar errores de programación de un juego creado hace +35 años.
             </p>
           </div>
         </div>

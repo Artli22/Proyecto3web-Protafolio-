@@ -2,6 +2,7 @@ import NavBar from './Componentes/navBar'
 import Hero from './Componentes/hero'
 import SobreMi from './Componentes/sobreMi'
 import Pasatiempos from './Componentes/pasatiempos'
+import Proyectos from './Componentes/proyectos'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <SobreMi />
       <Pasatiempos />
+      <Proyectos />
     </>
   )
 }
