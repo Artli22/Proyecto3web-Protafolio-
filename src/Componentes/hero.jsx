@@ -50,7 +50,7 @@ export default function Hero() {
       <div className="spotlight" ref={spotlightRef}></div>
 
       <div className="hero-content" ref={contentRef}>
-        <h1 className="hero-title">Hola, soy Arturo Lima</h1>
+        <h1 className="hero-title">Hola, soy Arturo</h1>
         <p className="hero-subtitle">Frontend Developer Jr.</p>
       </div>
 
