@@ -1,18 +1,22 @@
 import '../Estilos/sobreMi.css'
+import { useRef } from 'react'
 import { useGsapReveal } from '../hooks/gsapReveal'
+import { useGsap3D } from '../hooks/gsap3D'
 import img3 from '../Archivos/Img/img3Proyectoweb3.jpeg'
 
 export default function SobreMi() {
   const ref = useGsapReveal()
+  const imageRef = useRef(null)
+  useGsap3D(imageRef)
 
   return (
-    <section className="sobre-mi" ref={ref}>
+    <section className="sobre-mi" id="about" ref={ref}>
       <div className="sobre-mi-container">
         <h1 className="sobre-mi-title">Un poco sobre mi</h1>
         
         <div className="sobre-mi-content">
           <div className="sobre-mi-image-wrapper">
-            <img src={img3} alt="Arturo Lima" className="sobre-mi-image" />
+            <img ref={imageRef} src={img3} alt="Arturo Lima" className="sobre-mi-image" />
           </div>
           
           <p className="sobre-mi-text">

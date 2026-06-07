@@ -4,7 +4,7 @@ import { FiGithub, FiInstagram } from 'react-icons/fi'
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="footer-container">
         <div className="footer-content">
           <h2 className="footer-title">¡Contáctame!</h2>

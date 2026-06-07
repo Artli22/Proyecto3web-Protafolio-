@@ -50,6 +50,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  perspective: 600px;
 }
 
 .hobby-image {
@@ -58,6 +59,8 @@
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
 }
 
 .hobby-title {

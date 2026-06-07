@@ -27,7 +27,7 @@ export default function Proyectos() {
   ]
 
   return (
-    <section className="proyectos">
+    <section className="proyectos" id="work">
       <div className="proyectos-container" ref={containerRef}>
         <h1 className="proyectos-title">Mis Proyectos</h1>
         

@@ -1,14 +1,23 @@
 import '../Estilos/pasatiempos.css'
+import { useRef } from 'react'
 import { useGsapReveal } from '../hooks/gsapReveal'
+import { useGsap3D } from '../hooks/gsap3D'
 import img4 from '../Archivos/Img/Gran-Turismo-Symbol.png'
 import img5 from '../Archivos/Img/img5Proyectoweb3.png'
 import img6 from '../Archivos/Img/img6Proyectoweb3.png'
 
 export default function Pasatiempos() {
   const containerRef = useGsapReveal()
+  const img4Ref = useRef(null)
+  const img5Ref = useRef(null)
+  const img6Ref = useRef(null)
+
+  useGsap3D(img4Ref)
+  useGsap3D(img5Ref)
+  useGsap3D(img6Ref)
 
   return (
-    <section className="pasatiempos">
+    <section className="pasatiempos" id="passion">
       <div className="pasatiempos-container" ref={containerRef}>
         <h1 className="pasatiempos-title">
           Mis hobbies
@@ -21,7 +30,7 @@ export default function Pasatiempos() {
         <div className="hobbies-grid">
           <div className="hobby-card">
             <div className="hobby-image-wrapper">
-              <img src={img4} alt="Gran Turismo" className="hobby-image" />
+              <img ref={img4Ref} src={img4} alt="Gran Turismo" className="hobby-image" />
             </div>
             <h2 className="hobby-title">Jugar Gran Turismo</h2>
             <p className="hobby-text">
@@ -34,7 +43,7 @@ export default function Pasatiempos() {
 
           <div className="hobby-card">
             <div className="hobby-image-wrapper">
-              <img src={img6} alt="Ciclismo" className="hobby-image" />
+              <img ref={img6Ref} src={img6} alt="Ciclismo" className="hobby-image" />
             </div>
             <h2 className="hobby-title">Ciclismo</h2>
             <p className="hobby-text">
@@ -47,7 +56,7 @@ export default function Pasatiempos() {
 
           <div className="hobby-card">
             <div className="hobby-image-wrapper">
-              <img src={img5} alt="Super Mario Bros Speedrun" className="hobby-image" />
+              <img ref={img5Ref} src={img5} alt="Super Mario Bros Speedrun" className="hobby-image" />
             </div>
             <h2 className="hobby-title">Speedrun de Super Mario Bros</h2>
             <p className="hobby-text">
