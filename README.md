@@ -5,7 +5,7 @@
 
 La idea original del proyecto era diseñar un portafolio con una estética minimalista y profesional. El objetivo principal era crear una página capaz de captar la atención de empresas formalizadas interesadas en incorporar desarrolladores frontend a sus equipos de trabajo.
 
-Respecto al diseño visual, considero que el objetivo sí se logró; sin embargo, siento que el contenido fue el elemento que rompió parcialmente esa estética. Al momento de seleccionar los proyectos para incluir dentro del portafolio, me percaté de que todavía no cuento con trabajos de gran escala. Dos de los tres proyectos agregados son relativamente pequeños, lo cual limita un poco la percepción de mis habilidades como desarrollador.
+Respecto al diseño visual, considero que el objetivo sí se logró; sin embargo, siento que el contenido fue el elemento que rompió parcialmente esa estética. Al momento de seleccionar los proyectos para incluir dentro del portafolio, me percaté de que todavía no cuento con trabajos de gran escala. Dos de los tres proyectos agregados son relativamente pequeños, lo cual limita un poco la percepción de mis habilidades.
 
 El proyecto que considero más alineado con una estética empresarial formal fue el desarrollado en Software 1, ya que estuvo basado en las necesidades y preferencias de una empresa real.
 
@@ -36,7 +36,7 @@ En el caso de TypeScript, no lo utilicé porque todavía no me siento completame
 
 Respecto a Go, decidí no implementarlo porque no vi necesidad de desarrollar un backend para este portafolio. Desde el inicio tenía planeado subir los videos mediante una herramienta externa para reducir el tiempo de carga de la página y poder priorizar otros aspectos importantes del proyecto, como las animaciones y la experiencia visual.
 
-En cuanto a prácticas de desarrollo, no implementé pruebas automatizadas debido a la ausencia de un backend y porque sentí que resultaban algo redundantes para este proyecto específico. Storybook sí hubiera sido una herramienta útil para probar la distribución de imágenes y videos dentro de la interfaz, pero olvidé integrarlo desde la estructura inicial del proyecto.
+En cuanto a prácticas de desarrollo, no implementé tests debido a la ausencia de un backend, por ello las sentí redundantes en este proyecto. Storybook sí hubiera sido una herramienta útil para probar la distribución de imágenes y videos dentro de la interfaz, pero olvidé integrarlo desde la estructura inicial del proyecto.
 
 ---
 
