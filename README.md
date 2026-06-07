@@ -1,4 +1,4 @@
-```md
+
 # Reflexión – Proyecto No.3: Portafolio
 
 ## Objetivo del proyecto
@@ -60,5 +60,5 @@ Si tuviera una semana adicional para trabajar en el proyecto, me gustaría:
 - Utilizar una mejor plataforma externa para alojar los videos.
 - Mejorar el tiempo de respuesta y rendimiento general de la página.
 - Agregar una sección de experiencia con logos de tecnologías y lenguajes que manejo de forma competente.
-```
+
 
